@@ -3,12 +3,16 @@ Server application written in Python for communication with Train Simulator 2020
 
 #### Commands for communinication with Train Simulator:
 ```
-  GetCV(NumberOrNameOfControlValue,wantedState)::  
+  GetCV(NumberOrNameOfControlValue,wantedState)::  Possible wanted states are 0=actual, 1=minimum, 2=maximal.
   SetCV(NumberOrNameOfControlValue,ValueToWrite)::
   GetControlList()::
   GetTime()::
   GetLocoName()::
   ```
-  Possible wanted states are 0=actual, 1=minimum, 2=maximal.
   
- Communication with server is possible on port 8888 and IP address of the computer it is running on.
+  
+Communication with server is possible on port 8888 and IP address of the computer it is running on.
+
+Created for project Loco simulator 362/363, which you can see here https://www.youtube.com/watch?v=p-Ftj1BDMz8.
+
+Made possible thanks to https://github.com/piotrkilczuk/py-raildriver.
