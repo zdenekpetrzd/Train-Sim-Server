@@ -3,7 +3,7 @@ Server application written in Python for communication with Train Simulator 2020
 
 #### Commands for communinication with Train Simulator:
 ```
-  GetCV(NumberOrNameOfControlValue,wantedState)::  Possible wanted states are 0=actual, 1=minimum, 2=maximal.
+  GetCV(NumberOrNameOfControlValue,wantedState)::  Possible wanted states: 0=actual, 1=minimum, 2=maximal.
   SetCV(NumberOrNameOfControlValue,ValueToWrite)::
   GetControlList()::
   GetTime()::
